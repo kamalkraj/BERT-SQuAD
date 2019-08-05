@@ -35,14 +35,14 @@ print(answer['answer'])
 print(ans.keys())
 # dict_keys(['answer', 'start', 'end', 'confidence', 'document']))
 ```
-`model.predict(doc,q)` return dict 
+`model.predict(doc,q)` return `dict`
 ```json
 {
-"answer" : answer text,
-"start" : start index,
-"end" : end index,
-"confiednce" : confidence of answer,
-"documnet" : tokenzied document , list
+"answer" : "answer text",
+"start" : "start index",
+"end" : "end index",
+"confiednce" : "confidence of answer",
+"document" : "tokenzied document , list"
 }
 ```
 
