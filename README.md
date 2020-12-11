@@ -32,7 +32,7 @@ answer = model.predict(doc,q)
 
 print(answer['answer'])
 # 1975
-print(ans.keys())
+print(answer.keys())
 # dict_keys(['answer', 'start', 'end', 'confidence', 'document']))
 ```
 `model.predict(doc,q)` return `dict`
