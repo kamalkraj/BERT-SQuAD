@@ -41,7 +41,7 @@ print(answer.keys())
 "answer" : "answer text",
 "start" : "start index",
 "end" : "end index",
-"confiednce" : "confidence of answer",
+"confidence" : "confidence of answer",
 "document" : "tokenzied document , list"
 }
 ```
